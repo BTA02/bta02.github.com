@@ -368,17 +368,14 @@ body {
   background: #FFF;
   text-align: center;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1em; }
+  font-size: 1em;
+  color: #696969; }
 
 h1 {
-  color: #696969;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.8em;
   font-weight: 400;
   margin: 0; }
-
-p {
-  color: #696969; }
 
 a {
   text-decoration: none; }
@@ -415,6 +412,9 @@ li {
 
 .purple-icon {
   color: #551a8b; }
+
+.project-description {
+  display: none; }
 
 .doc {
   margin: 3em 0;

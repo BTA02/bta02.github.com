@@ -18,10 +18,13 @@
 
   <body class="index">
     <h1>
-	Andrew Axtell's personal, kickass website.
+	Andrew Axtell's personal website.
 </h1>
 <p>
 	I wish I was as good with anagrams as the boys from Captain Underpants
+</p>
+<p>
+	Aspiring trivia champion	
 </p>
 <h1>
 Social Media Sites
@@ -44,22 +47,55 @@ Social Media Sites
 </h1>
 <ul>
 	<li>
-		<div class='round-button' onclick="launchSiteInNewTab('https://quidstats.herokuapp.com')">
+		<div class='round-button' onclick="launchSiteInNewTab('https://quidstats.herokuapp.com')" onmouseover="toggleDetails('quidstats-website-description', true)" onmouseleave="toggleDetails('quidstats-website-description', false)">
+			<img class="purple-icon" src="/images/qs_logo_transparent.png"/>
+		</div>
+	</li>
+</ul>
+<div class='project-description' id='quidstats-website-description'>
+	<h3>Quidstats</h3>
+	<h4>Technologies: HTML, CSS, Javascript, Angular, Ruby</h4>
+	<p>Quidstats is a fully featured stats taking web-app centered around quidditch (yes, the game from Harry Potter. It was adapted to non-flying brooms in 2005). I started developing a now defunct mobile app for stats in 2011, but have since moved it online. I started building this app in 2015, and continue to iterate and improve it. The code is hosted on github under the 'Quid-Stats-Website' repo. This was my first real web development project. I think it's a pretty ambitious to start my web development career with, but I liked the idea so much I pushed through the difficult learning process. This site wouldn't exist without the help of the amazing and patient David Brownman, who helped me get it going. I knew a bit of HTML and CSS at the start of this project. I had to brush up on that, as well as all the other techs that make this app run.</p>
+</div>
+<h1>
+	Projects from Previous Jobs
+</h1>
+<ul>
+	<li>
+		<div class='round-button' onclick="launchSiteInNewTab('https://lessonbuilder.imlc.io')" onmouseover="toggleDetails('lessonbuilder-description', true)" onmouseleave="toggleDetails('lessonbuilder-description', false)">
+			<img class="purple-icon" src="/images/qs_logo_transparent_purple.png"/>
+		</div>
+	</li>
+	<li>
+		<div class='round-button' onclick="launchSiteInNewTab('https://play.google.com?q=Soloway')" onmouseover="toggleDetails('collabrify-apps-description', true)" onmouseleave="toggleDetails('collabrify-apps-description', false)">
 			<img class="purple-icon" src="/images/qs_logo_transparent_purple.png"/>
 		</div>
 	</li>
 </ul>
-<p>Quidstats is a fully featured stats taking web-app centered around quidditch (yes, the game from Harry Potter. It was adapted to non-flying brooms in 2005). I started developing a now defunct mobile app for stats in 2011, but have since moved it online. I started building this app in 2015, and continue to iterate and improve it. The code is hosted on github under the 'Quid-Stats-Website' repo. </p>
+<div class="project-description" id="lessonbuilder-description">
+	<h3>LessonBuilder</h3>
+	<h4>Technologies: HTML, CSS, Coffeescript, React.js</h4>
+	<p>This is a web app I built at my last job. I'm including it here because I was the lead on the project while I was there. I was responsible for creating the app, iterating on it, adding features, and gathering and responding to feedback. This is a free tool for teachers we built as part of a research group at the University of Michigan. I had an amazing time working with the handful of developers there. Obviously, this app was a team effort. We had an existing backend that this app needed to integrate with. We also had other apps that needed to interoperate with this one. As a team, we were able to accomplish those goals and get this app (and others) in to the hands of teachers. It's a free app, if you want to check it out and play with it. All it takes is a Google Drive account.</p>
+</div>
+<div class="project-description" id="collabrify-apps-description">
+	<h3>The Collabrify Suite of Apps</h3>
+	<h4>Technologies: Java, Android, Android SDK</h4>
+	<p>This is the collab description</p>
+</div>
 <h1>
 	Inactive Projects
 </h1>
 <ul>
 	<li>
-		<div class='round-button' onclick="launchSiteInNewTab('https://play.google.com/store/apps/details?id=local.quidstats&hl=en')">
-			<img class="purple-icon" src="/images/qs_logo_transparent_purple.png"/>
+		<div class='round-button' onclick="launchSiteInNewTab('https://play.google.com/store/apps/details?id=local.quidstats&hl=en')" onmouseover="toggleDetails('quidstats-app-description', true)" onmouseleave="toggleDetails('quidstats-app-description', false)">
+			<img class="purple-icon" src="/images/qs_logo_transparent.png"/>
 		</div>
 	</li>
 </ul>
-<p>This is the Quidstats mobile app mentioned above. It started in 2011, and was developed actively for a couple of years. Due to device limitations (who even has an Android tablet?), I decided to put it on the web. The website took what I learned from here, and applied it to a much more accesible platform</p>
+<div class='project-description' id='quidstats-app-description'>
+	<h3>Quidstats (Android app)</h3>
+	<h4>Technologies: Java, Android, Android SDK</h4>
+	<p>This is the Quidstats mobile app mentioned above. I started building it in 2011, and was developed actively for a couple of years. I built it as a learning project. It was my first foray in to Android, and building it was one of the primary ways I learned how to develop Android apps. Due to device limitations (who even has an Android tablet?), I decided to stop development on the app and put a similar app on the web. The website took what I learned from here, and applied it to a much more accesible platform. This app, along with my Senior Design app, is the reason I got in to Android development professionally.</p>
+</div>
   </body>
 </html>
