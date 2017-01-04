@@ -9,18 +9,14 @@ body {
 	text-align: center;
 	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 1em;
+	color: $primary-gray;
 }
 
 h1 {
-	color: $primary-gray;
 	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 1.8em;
 	font-weight: 400;
 	margin: 0;
-}
-
-p {
-	color: $primary-gray;
 }
 
 a {
@@ -66,6 +62,10 @@ li {
 
 .purple-icon {
 	color: $primary-purple;	
+}
+
+.project-description {
+	display: none;
 }
 
 .doc {
