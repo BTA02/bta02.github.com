@@ -376,7 +376,7 @@ body {
 
 #main {
   max-width: 700px;
-  margin: auto 0; }
+  margin: auto; }
 
 h1 {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
